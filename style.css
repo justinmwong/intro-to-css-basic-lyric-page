@@ -1,0 +1,33 @@
+/* Changes background color to black, adds white border to body */
+body {
+  background-color: black;
+  width: 1225px;
+  padding: 10px;
+  border: 20px dashed white;
+  margin: 30px;
+}
+
+img{
+  max-width: 25%;
+  max-height: 25%;
+  margin-left: 450px;
+  margin-right: 450px;
+}
+
+/* Changes font color to white */
+h1, h2, strong, p {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  font-family: 'Kode Mono', sans-serif;
+}
+
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 400 to 700
+
+.kode-mono-<uniquifier> {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
